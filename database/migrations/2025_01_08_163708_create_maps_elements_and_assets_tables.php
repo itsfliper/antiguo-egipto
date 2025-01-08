@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateMapsElementsAndAssetsTables extends Migration
 {
+    /**
+     * Ejecuta la migración.
+     */
     public function up(): void
     {
         // Tabla de mapas
